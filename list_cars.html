@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>List Cars in Parking Lot</title>
+</head>
+<body style="background-color:lightblue;">
+    <div class="table-container mt-5 mb-5 w-75 mx-auto" >
+        <h5 class="text-center mb-3">List of Cars in Parking Lot</h5>
+        <input type="text" class="w-100 mb-3" id="searchInput" placeholder="Search...">
+        <table class="table table-striped shadow " id="parkingTable">
+                <thead class="text-black" id="tableHead">
+                  <tr>
+                    <th scope="col">Owner</th>
+                    <th scope="col">Car</th>
+                    <th scope="col">License Plate</th>
+                    <th scope="col">Entry Date</th>
+                    <th scope="col">Exit Date</th>
+                    <th scope="col">Entry Time</th>
+                    <th scope="col">Exit Time</th>
+                    <th scope="col">Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="tableBody">
+                 
+                </tbody>
+              </table>
+</div>
+
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
